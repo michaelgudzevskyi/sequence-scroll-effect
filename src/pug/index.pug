@@ -1,0 +1,30 @@
+extends /_includes/layout
+
+block title
+    title Michael Gudzevskyi Scroll | Demo
+
+block content
+
+    .c-layout#view-main
+        .c-content
+
+            header.c-demo
+                .c-demo-content
+                    .c-demo-container
+                        .c-demo-header
+                            h1 Michael Gudzevskyi#[br] Sequence Scroll Effect
+                            //h2 With GSAP ScrollTrigger & SmoothScroll
+
+            section.c-sequence
+                .c-sequence-stage
+                    canvas
+
+            section.c-outro
+                .c-outro-content
+                    .c-outro-container
+                        .c-outro-header
+                            h2 Credits
+                        .c-outro-list
+                            .c-outro-list-item: a(href="//michaelgudzevskyi.com/", target="_blank") @michaelgudzevskyi
+                            .c-outro-list-item: a(href="//greensock.com/gsap/", target="_blank") GreenSock GSAP
+                            .c-outro-list-item: a(href="//github.com/idiotWu/smooth-scrollbar", target="_blank") Smooth Scrollbar

@@ -1,0 +1,11 @@
+.c-sequence {
+    $root:&;
+
+    position:relative;
+    height:100vh;
+
+    &-stage {
+        width:100%;
+        height:100%;
+    }
+}
